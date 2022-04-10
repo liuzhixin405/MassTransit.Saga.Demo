@@ -17,7 +17,7 @@ using System.Diagnostics;
 namespace Sample.Service
 {
     /// <summary>
-    /// V1.0.0
+    /// V1.0.0 push Test
     /// </summary>
     internal class program
     {
