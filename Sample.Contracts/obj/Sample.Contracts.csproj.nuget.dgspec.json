@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj": {}
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj": {
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj",
+        "projectUniqueName": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj",
         "projectName": "Sample.Contracts",
-        "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj",
+        "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\obj\\",
+        "outputPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

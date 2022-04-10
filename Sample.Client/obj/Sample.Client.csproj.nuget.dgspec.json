@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Client\\Sample.Client.csproj": {}
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Client\\Sample.Client.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Client\\Sample.Client.csproj": {
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Client\\Sample.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Client\\Sample.Client.csproj",
+        "projectUniqueName": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Client\\Sample.Client.csproj",
         "projectName": "Sample.Client",
-        "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Client\\Sample.Client.csproj",
+        "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Client\\Sample.Client.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Client\\obj\\",
+        "outputPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
