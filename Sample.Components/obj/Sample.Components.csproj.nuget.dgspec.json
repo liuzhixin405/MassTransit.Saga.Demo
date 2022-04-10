@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj": {}
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj": {
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj",
+        "projectUniqueName": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj",
         "projectName": "Sample.Components",
-        "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj",
+        "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\obj\\",
+        "outputPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj"
+              "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj": {
+                "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj": {
+    "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj",
+        "projectUniqueName": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj",
         "projectName": "Sample.Contracts",
-        "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj",
+        "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\obj\\",
+        "outputPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

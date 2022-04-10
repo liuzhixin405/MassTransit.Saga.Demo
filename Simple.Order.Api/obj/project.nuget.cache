@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X1wPydMEMUqVK8+Hy8x8avGdwyp1oy4BVrl5EI34gWNjTwU2fgVj6o9ysjP1kw2kV4t1cGkgbodxTJo9wW6QWA==",
+  "dgSpecHash": "f8k4N6XxdrzzwQRXEuvBj8gtY8biUH+nUItmfjXRsFJw0z+Z8udEfIkcexBhywfDVQozAN0HWOPbsdmiWoQn8A==",
   "success": true,
-  "projectFilePath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Simple.Order.Api\\Simple.Order.Api.csproj",
+  "projectFilePath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Simple.Order.Api\\Simple.Order.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\masstransit\\8.0.1\\masstransit.8.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\masstransit.abstractions\\8.0.1\\masstransit.abstractions.8.0.1.nupkg.sha512",

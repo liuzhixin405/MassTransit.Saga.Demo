@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wuRUp/33Lf8HyvpQF29MkOB8j4z//QPSJFMDGXBrK4rvzRnGYplD7Ad4Vk7rg0YN9la1k8B08Er3EXFf4bmCbw==",
+  "dgSpecHash": "7dBFmX67cdOvtnGYAa7RawP9Y9KNbrZOBj61TUiP4YZC1JcRUMS1q0f35zIQzUmUa/BKdFNH2zxwkVSSP9gDCw==",
   "success": true,
-  "projectFilePath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj",
+  "projectFilePath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\masstransit\\8.0.1\\masstransit.8.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\masstransit.abstractions\\8.0.1\\masstransit.abstractions.8.0.1.nupkg.sha512",

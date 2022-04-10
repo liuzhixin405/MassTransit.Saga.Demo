@@ -16,6 +16,9 @@ using System.Diagnostics;
 
 namespace Sample.Service
 {
+    /// <summary>
+    /// V1.0.0
+    /// </summary>
     internal class program
     {
         static DependencyTrackingTelemetryModule _module;

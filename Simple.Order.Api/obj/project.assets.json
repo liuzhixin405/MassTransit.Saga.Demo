@@ -1066,11 +1066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Simple.Order.Api\\Simple.Order.Api.csproj",
+      "projectUniqueName": "D:\\GitHub_\\MassTransit.Saga.Demo\\Simple.Order.Api\\Simple.Order.Api.csproj",
       "projectName": "Simple.Order.Api",
-      "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Simple.Order.Api\\Simple.Order.Api.csproj",
+      "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Simple.Order.Api\\Simple.Order.Api.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Simple.Order.Api\\obj\\",
+      "outputPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Simple.Order.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1087,11 +1087,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj": {
-              "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Components\\Sample.Components.csproj"
+            "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj": {
+              "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Components\\Sample.Components.csproj"
             },
-            "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj": {
-              "projectPath": "D:\\GitHub_\\exercise\\MassTransitDemo\\Simple.SagaDemo\\Sample.Contracts\\Sample.Contracts.csproj"
+            "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj": {
+              "projectPath": "D:\\GitHub_\\MassTransit.Saga.Demo\\Sample.Contracts\\Sample.Contracts.csproj"
             }
           }
         }
