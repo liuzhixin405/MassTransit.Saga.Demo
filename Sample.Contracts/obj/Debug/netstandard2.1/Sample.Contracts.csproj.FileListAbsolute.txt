@@ -18,3 +18,13 @@ D:\GitHub_\exercise\MassTransitDemo\Simple.SagaDemo\Sample.Contracts\obj\Debug\n
 D:\GitHub_\exercise\MassTransitDemo\Simple.SagaDemo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.csproj.CoreCompileInputs.cache
 D:\GitHub_\exercise\MassTransitDemo\Simple.SagaDemo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.dll
 D:\GitHub_\exercise\MassTransitDemo\Simple.SagaDemo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.pdb
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\bin\Debug\netstandard2.1\Sample.Contracts.deps.json
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\bin\Debug\netstandard2.1\Sample.Contracts.dll
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\bin\Debug\netstandard2.1\Sample.Contracts.pdb
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.csproj.AssemblyReference.cache
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.AssemblyInfoInputs.cache
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.AssemblyInfo.cs
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.csproj.CoreCompileInputs.cache
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.dll
+D:\GitHub_\MassTransit.Saga.Demo\Sample.Contracts\obj\Debug\netstandard2.1\Sample.Contracts.pdb

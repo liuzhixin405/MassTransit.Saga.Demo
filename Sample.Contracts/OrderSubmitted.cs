@@ -15,4 +15,10 @@ namespace Sample.Contracts
 
         public MessageData<string> Notes { get; }
     }
+
+    public interface CustomerAccountClosed
+    {
+        Guid CustomerId { get; set; }
+        public string CustomerNumber { get; }
+    }
 }

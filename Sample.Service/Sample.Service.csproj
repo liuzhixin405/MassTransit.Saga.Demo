@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="MassTransit" Version="8.0.1" />
+    <PackageReference Include="MassTransit.MongoDb" Version="8.0.1" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.1" />
     <PackageReference Include="MassTransit.Redis" Version="8.0.1" />
     <PackageReference Include="MassTransit.RedisSagas" Version="6.3.2.88" />

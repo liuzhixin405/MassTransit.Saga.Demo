@@ -22,6 +22,8 @@ namespace Sample.Components.StateMachines
                   }));
             }) ;
 
+            Event(() => AccountClosed, x => x.CorrelateBy((instance,context) => instance.CustomerNumber==context.Message.CustomerNumber));
+
             InstanceState(x => x.CurrentState);
 
             Initially(
@@ -33,7 +35,7 @@ namespace Sample.Components.StateMachines
                     context.Instance.Updated = DateTime.UtcNow;
                 }).TransitionTo(Submitted));
 
-            During(Submitted, Ignore(OrderSubmitted));
+            During(Submitted, Ignore(OrderSubmitted),When(AccountClosed).TransitionTo(Canceled));
 
             DuringAny(When(OrderStatusRequested).RespondAsync(x => x.Init<OrderStatus>(new
             {
@@ -48,7 +50,9 @@ namespace Sample.Components.StateMachines
         }
 
         public State Submitted { get; private set; }
+        public State Canceled { get; private set; }
         public Event<OrderSubmitted> OrderSubmitted { get; private set; }
+        public Event<CustomerAccountClosed> AccountClosed { get; private set; }
         public Event<CheckOrder> OrderStatusRequested { get; private set; }
     }
 }

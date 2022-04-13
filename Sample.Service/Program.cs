@@ -38,7 +38,7 @@ namespace Sample.Service
                 {
 
                     services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance); 
-                    var exchange = KebabCaseEndpointNameFormatter.Instance.Consumer<SubmitOrderConsumer>();
+                    //var exchange = KebabCaseEndpointNameFormatter.Instance.Consumer<SubmitOrderConsumer>();
                     services.AddMassTransit(mt =>
                     {
                         _module = new DependencyTrackingTelemetryModule();
@@ -75,8 +75,13 @@ namespace Sample.Service
 
                         });
                         mt.AddConsumersFromNamespaceContaining<SubmitOrderConsumer>();
-                        mt.AddSagaStateMachine<OrderStateMachine, OrderState>(typeof(OrderStateMachineDefinition)).RedisRepository(s=>s.DatabaseConfiguration("8.142.71.127:6379,password=123456"));
-
+                        mt.AddSagaStateMachine<OrderStateMachine, OrderState>(typeof(OrderStateMachineDefinition))
+                        //.RedisRepository(s=>s.DatabaseConfiguration("8.142.71.127:6379,password=123456"));
+                        .MongoDbRepository(r =>
+                        {
+                            r.Connection = "mongodb://127.0.0.1";
+                            r.DatabaseName = "orders";
+                        });
                         mt.AddRequestClient<CheckOrder>();
                     });
 
