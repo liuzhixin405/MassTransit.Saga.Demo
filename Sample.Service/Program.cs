@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Sample.Components.BatchConsumers;
 using Sample.Components.Consumers;
 using Sample.Components.StateMachines;
+using Sample.Components.StateMachines.OrderStateMachineActivities;
 using Sample.Contracts;
 using Serilog;
 using Serilog.Events;
@@ -75,6 +76,9 @@ namespace Sample.Service
 
                         });
                         mt.AddConsumersFromNamespaceContaining<SubmitOrderConsumer>();
+                        
+                        services.AddScoped<AcceptOrderActivity>();
+                        mt.AddActivitiesFromNamespaceContaining<AcceptOrderActivity>();
                         mt.AddSagaStateMachine<OrderStateMachine, OrderState>(typeof(OrderStateMachineDefinition))
                         //.RedisRepository(s=>s.DatabaseConfiguration("8.142.71.127:6379,password=123456"));
                         .MongoDbRepository(r =>
